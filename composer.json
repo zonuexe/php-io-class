@@ -1,0 +1,32 @@
+{
+    "name": "zonuexe/io-class",
+    "description": "Unified I/O classes for PHP",
+    "version": "0.0.1-alpha1",
+    "homepage": "https://github.com/zonuexe/php-io-class",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "USAMI Kenta",
+            "email": "tadsan@zonu.me",
+	    "homepage": "http://dt.zonu.me/"
+        }
+    ],
+    "require": {
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1"
+	,"apigen/apigen": "2.*"
+	,"nette/nette": "2.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Teto\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Teto\\": "tests/"
+        }
+    }
+}
